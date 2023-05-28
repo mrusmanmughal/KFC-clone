@@ -36,3 +36,8 @@ hr {
   background: rgba(117, 117, 117, 0.635);
   border-radius: 10px;
 }
+
+/* login page */
+.login {
+  background-image: url("./assets/bg.png");
+}
