@@ -14,7 +14,7 @@ const BrowsCategory = () => {
         </div>
       </div>
       {/* menu-content starts here  */}
-      <div className="flex  justify-center flex-wrap     ">
+      <div className="flex  justify-center flex-wrap ">
         {PicsArr.map((val, i) => {
           return (
             <div key={i}>
