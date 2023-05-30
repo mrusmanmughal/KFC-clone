@@ -11,7 +11,6 @@ const App = () => {
         <BrowsCategory />
         <TopSelling />
       </div>
-      <Footer />
     </>
   );
 };
