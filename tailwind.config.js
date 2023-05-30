@@ -2,13 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      colors: {
-        bgLight: {
-          100: "#1c1816",
-        },
-      },
+    container: {
+      center: true,
     },
+    extend: {},
   },
   plugins: [],
 };

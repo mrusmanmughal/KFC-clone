@@ -2,7 +2,7 @@ import hi from "../../assets/login.gif";
 import google from "../../assets/google-icon.svg";
 const Login = () => {
   return (
-    <div className="h-screen w-full  login   py-16">
+    <div className="   login   py-16">
       <div className="bg-stone-900 w-2/3 m-auto  rounded p-10  ">
         <div className="flex">
           <div className="w-1/2 pt-10">
