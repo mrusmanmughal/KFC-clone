@@ -16,11 +16,11 @@ const TopSelling = () => {
           const { title, img, des, price } = val;
           return (
             <div className="text-white flex flex-col justify-between p-5 w-64 bg-stone-900 rounded-md relative ">
-              <div>
+              <div className="overflow-hidden">
                 <img
                   src={img}
                   alt="Menu"
-                  className="transition ease-in-out  hover:translate hover:scale-110 "
+                  className="transition ease-in-out overflow-hidden duration-500  hover:translate hover:scale-110 "
                 />
 
                 <h1 className="text-xl py-3 font-bold">{title}</h1>
