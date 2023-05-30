@@ -6,7 +6,7 @@ import { BiCurrentLocation } from "react-icons/bi";
 import e from "../assets/bucket-empty (1).png";
 const Nav = () => {
   return (
-    <div className=" ">
+    <header className=" ">
       <nav className="bg-black    py-3  ">
         <div className="w-4/5 m-auto border-3 border-white-900 flex justify-between  ">
           <div className="flex-col  items-center    gap-5   md:flex  lg:flex-row xl:flex   ">
@@ -38,8 +38,9 @@ const Nav = () => {
               <BiCurrentLocation className=" text-red-600 text-2xl" /> Select
               Location
             </div>
-            <div className="     ">
+            <div className="   relative  ">
               <img src={e} alt="" className="w-8" />
+              <p className="absolute top-1 left-3 text-xl font-bold">0 </p>
             </div>
 
             <div>
@@ -50,7 +51,7 @@ const Nav = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 
