@@ -4,16 +4,22 @@ import Login from "./Components/Login/Login";
 import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 import Product from "./Components/Category/Product";
+import Cart from "./Components/Cart";
+import Bucket from "./Components/Bucket";
 
 const Routepath = () => {
   return (
     <div>
+      <Cart />
       <Nav />
-      <Routes>
-        <Route path="/" Component={App} />
-        <Route path="/login" Component={Login} />
-        <Route path="/product" Component={Product} />
-      </Routes>
+      <div className="w-4/5 m-auto">
+        <Routes>
+          <Route path="/" Component={App} />
+          <Route path="/login" Component={Login} />
+          <Route path="/product" Component={Product} />
+          <Route path="/bucket" Component={Bucket} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   );

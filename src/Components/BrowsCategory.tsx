@@ -1,26 +1,18 @@
 import { PicsArr } from "../Data/HPMenu";
 const BrowsCategory = () => {
-  console.log(PicsArr);
   return (
     <div>
-      <div className="py-5 flex gap-5  text-white">
-        <div className="flex items-center justify-center">
-          <div>
-            <h1 className="text-2xl font-bold  ">BrowseCategories</h1>
-          </div>
-          <div>
-            <hr />
-          </div>
+      <div>
+        <div className="flex items-center gap-4 py-4">
+          <h1 className="text-2xl font-bold  text-white">BrowseCategories</h1>
+
+          <hr className="w-full  border-gray-500" />
         </div>
       </div>
       {/* menu-content starts here  */}
-      <div className="flex  justify-center flex-wrap ">
+      <div className="  flex flex-direction-row overflow-x-scroll lg:justify-center lg:gap-5  py-5 ">
         {PicsArr.map((val, i) => {
-          return (
-            <div key={i}>
-              <img src={val} alt="" />
-            </div>
-          );
+          return <img src={val} alt="" key={i} className="w-40" />;
         })}
       </div>
     </div>

@@ -1,9 +1,9 @@
 const ProductBtn = [
   {
-    name: "Every Day Value",
+    name: "EverydayValue",
   },
   {
-    name: "Ala Carte & Combo",
+    name: "AlaCarte&Combo",
   },
   {
     name: "Signature Boxes",

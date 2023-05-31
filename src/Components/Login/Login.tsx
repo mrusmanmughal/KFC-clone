@@ -3,7 +3,7 @@ import google from "../../assets/google-icon.svg";
 const Login = () => {
   return (
     <div className="   login   py-16">
-      <div className="bg-stone-900 w-2/3 m-auto  rounded p-10  ">
+      <div className="bg-stone-900   lg:w-3/4 md:container  m-auto  rounded p-10  ">
         <div className="flex">
           <div className="w-1/2 pt-10">
             <img src={hi} alt="" />
@@ -29,7 +29,9 @@ const Login = () => {
             </div>
             <div className="flex   items-center">
               <hr className=" w-20" />
-              <p className="p-8 font-bold text-white">Or Login With</p>
+              <p className="p-8 font-bold text-white md:text-xs md:p-2 lg:p-7 lg:text-lg">
+                Or Login With
+              </p>
               <hr className=" w-20" />
             </div>
             <div className="flex justify-center">
