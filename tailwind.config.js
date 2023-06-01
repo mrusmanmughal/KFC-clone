@@ -5,7 +5,12 @@ export default {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      colors: {
+        // Your custom colors here
+        white: "#f5f5f8",
+      },
+    },
   },
   plugins: [],
 };
